@@ -34,3 +34,4 @@ function vulnerableFunction(userInput) {
   // Example usage (simulating user input)
   const userInput = "<img src=x onerror=alert(1)>"; // Example XSS payload
   vulnerableFunction(userInput);
+  
